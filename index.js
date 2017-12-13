@@ -8,10 +8,7 @@ function(drivers){ return drivers.slice(-2)}
 const selectingDrivers=
 [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-const createFareMultiplier = function (integer) {
+const createFareMultiplier = function (multiplier) {
   return function (fare) {
-    return fare * integer;
-  }
-
-
-
+     return fare * multiplier;
+   }
